@@ -10,7 +10,7 @@ body {
     font-family: "Open Sans", Arial;
     line-height: 1.4;
 
-    color: #454545;
+    color: #000;
 }
 
 a {
@@ -127,6 +127,14 @@ small {
      margin: 0 auto;
  }
 
+
+ .wrong {
+     color: #990311;
+     text-transform: uppercase;
+     text-decoration: underline;
+     font-weight: bold;
+ }
+
  div#contrast,
  div#invmode {
      position: absolute;
@@ -149,3 +157,23 @@ small {
     color: #FFF;
     padding: 2px 5px;
  }
+
+
+
+
+ /** Dark CSS */
+
+.dark {
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+  .dark #contrast{
+    background: #000;
+    color: #FFF;
+  }
+
+
+  .contrast {
+      opacity: .8;
+  }

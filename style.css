@@ -2,21 +2,150 @@
 
 
 body {
-    margin: 40px auto;
+    margin: 32px auto;
     max-width: 800px;
-    padding: 0 10px;
+    padding: 16px;
 
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Open Sans", Arial;
-    color: #444;
+    line-height: 1.4;
+
+    color: #454545;
+}
+
+a {
+    color: #0077AA;
+}
+
+a:visited {
+    color: #941352;
 }
 
 
-h1, h2, h3 {
-    line-height: 1.2;
-    
+
+p.st {
+    margin-top: -1em;
 }
 
-p, ul, blockquote {
-    line-height: 1.6;
+
+
+.mfw {
+    color: #990311;
 }
+
+small {
+    font-size: .4em;
+}
+
+.sb {
+    color: blue;
+}
+
+.logos-langages {
+    height: 1em;
+}
+
+.fakepre {
+    font-family: monospace;
+    font-size: .9em;
+}
+
+.foufoufou {
+    font-weight: bold;
+}
+
+.foufoufou::before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: #454545;
+    margin-right: 5px;
+
+}
+
+.picture__left {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.picture__left img{
+    width: 100%;
+ } 
+
+ .tright::after {
+    content: '';
+    display: block;
+    clear: both;
+
+ }
+
+ .caption {
+     font-size: .7em;
+ }
+
+
+ blockquote span {
+     float: left;
+     margin-left: 1rem;
+     margin-top: 1rem;
+ }
+
+ blockquote author {
+     display: block;
+     margin-left: 2.4rem;
+     clear: both;
+     font-size: .6em;
+     font-style: oblique;
+ }
+
+ blockquote author::before {
+     content: "- ";
+     margin-right: 1em;
+ }
+
+ blockquote::before {
+     content: open-quote;
+     color: #666;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 2.2em;
+     margin-top: 0;
+     margin-right: .2rem;
+     width: 1.2rem;
+     float: left;
+ }
+ a.kopimi {
+     display: block;
+     width: 100%;
+ }
+
+ img.kopimi {
+     display: block;
+     height: 2em;
+     margin: 0 auto;
+ }
+
+ div#contrast,
+ div#invmode {
+     position: absolute;
+     
+     right: 10px;
+
+     font-size: .8em;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ div#contrast {
+    top: 10px;
+    color: #000;
+ }
+
+ div#invmode {
+    top: 35px;
+    background-color: #000;
+    color: #FFF;
+    padding: 2px 5px;
+ }

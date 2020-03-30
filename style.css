@@ -1,0 +1,22 @@
+
+
+
+body {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 10px;
+
+    font-size: 18px;
+    font-family: "Open Sans", Arial;
+    color: #444;
+}
+
+
+h1, h2, h3 {
+    line-height: 1.2;
+    
+}
+
+p, ul, blockquote {
+    line-height: 1.6;
+}

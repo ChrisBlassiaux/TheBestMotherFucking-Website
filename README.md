@@ -1,4 +1,4 @@
-#TheBestMotherFucking-Website <img src="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png" width="30px" style="float: right">
+# TheBestMotherFucking-Website <img src="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png" width="30px" style="float: right">
 
 
 → Une page d'exercice en HTML et CSS. 
